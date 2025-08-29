@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+.next/
+out/
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# pocketbase
+pb_data/
+pb_migrations/
+pb_hooks/
+
+# misc
+.DS_Store
