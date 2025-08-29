@@ -2,19 +2,30 @@
 
 This archive contains a complete mini-project you can run locally.
 
-## Quick start
+## Setup & Run Instructions
 
-1. Start PocketBase
+### 1. Clone the repository
+```bash
+git clone git@github.com:sassni/hotel-guest-management.git
+cd hotel-guest-management
+
+Install dependencies
+npm install
+
+Run PocketBase backend
+
+Download PocketBase from https://pocketbase.io/docs/
+Extract and run: ./pocketbase serve
    - download pocketbase binary and run `./pocketbase serve` inside `server/pocketbase`
-   - open http://127.0.0.1:8090/_/ and create admin (admin@hotel.local / Admin@12345 suggested)
+
+PocketBase Admin UI will be available at: http://127.0.0.1:8090/_/
+Use this login: Email: admin@hotel.local  | Password: Admin@12345 
+   - open http://127.0.0.1:8090/_/ and create admin (admin@hotel.local / Admin@12345)
    - import `server/migrations/1700000000_init_guests.json` and optionally `server/seed/guests.csv`
 
-2. Frontend
-   ```bash
+Run frontend:
+   bash
    cd client
    cp .env.example .env
-   npm install
    npm run dev
-   ```
-
-Open http://127.0.0.1:5173
+App will be available at - http://127.0.0.1:5173
