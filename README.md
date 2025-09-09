@@ -1,7 +1,5 @@
 # Hotel Guest Management (PocketBase + React + TypeScript + Tailwind)
 
-This archive contains a complete mini-project you can run locally.
-
 ## Setup & Run Instructions
 
 ### 1. Clone the repository
