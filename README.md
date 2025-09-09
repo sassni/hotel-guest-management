@@ -3,8 +3,7 @@
 ## Setup & Run Instructions
 
 ### 1. Clone the repository
-```
-bash
+```bash
 git clone git@github.com:sassni/hotel-guest-management.git
 cd hotel-guest-management
 ```
@@ -27,8 +26,7 @@ Use this login: Email: admin@hotel.local  | Password: Admin@12345
 ```
 
 ### 4. Run frontend:
-```
-   bash
+```bash
    cd client
    cp .env.example .env
    npm run dev
